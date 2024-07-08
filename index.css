@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(233, 246, 242);
+}
+
+.box {
+  width: 68%;
+  height: 85%;
+  margin-top: 2%;
+  margin-left: 16%;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  object-fit: cover;
+  background-color: white;
+}
+
+.header {
+  padding-top: 0.85vw;
+  width: 100%;
+  /* background-color: blanchedalmond; */
+  margin: auto;
+  text-align: center;
+  font-size: 3vw;
+  color: rgb(18, 115, 219);
+
+}
+
+.information {
+  display: flex;
+  border-top: 1px solid gray;
+  margin-top: 1vw;
+  padding: 2vw;
+  padding-left: 4.8vw;
+  background-color: rgb(244, 246, 248);
+}
+
+.word {
+  padding-right: 80px;
+  border-right: 1px solid gray;
+  height: 100%;
+}
+
+.word ul {
+  list-style: none;
+  text-align: center;
+  font-size: 2vw;
+
+}
+
+.word ul li {
+  margin-top: 20px;
+}
+
+.video {
+  padding-left: 4.5vw;
+  height: 313px;
+  width: 425px;
+}
+
+.video img {
+  margin-top: 0.3vw;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid gray;
+  /* 根据需要调整 */
+}
+
+.detail div {
+  flex: 0 0 50%;
+  margin-top: 30px;
+  /* 这里的50%表示每个div占据容器宽度的50% */
+  box-sizing: border-box;
+  /* 确保padding和border包含在宽度内 */
+  text-align: center;
+  font-size: 2.1vw;
+}
+
+.footer {
+  height: 2vw;
+  margin-top: 0.5vw;
+  font-size: 1vw;
+  color: rgb(145, 177, 84);
+}
